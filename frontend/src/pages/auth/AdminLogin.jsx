@@ -73,7 +73,7 @@ const AdminLogin = () => {
               <input
                 type="text"
                 className="form-control"
-                placeholder="e.g. admin_apollo"
+                placeholder="e.g. admin@swashthyasankalp"
                 required
                 value={formData.username}
                 onChange={(e) => setFormData({ ...formData, username: e.target.value })}
