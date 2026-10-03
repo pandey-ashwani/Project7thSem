@@ -29,7 +29,8 @@ app.use(
       'http://127.0.0.1:5173',
       'http://localhost:3000',
       'http://127.0.0.1:3000',
-      'http://localhost:8080'
+      'http://localhost:8080',
+      'https://project7th-sem-five.vercel.app'
     ],
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
