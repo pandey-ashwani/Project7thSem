@@ -4,17 +4,17 @@ import superAdminApi from '../../api/superAdminApi';
 import StatCard from '../../components/StatCard';
 import Badge from '../../components/Badge';
 import LoadingState from '../../components/LoadingState';
-import { 
-  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend 
+import {
+  BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, Legend
 } from 'recharts';
-import { 
-  ShieldCheck, 
-  Users, 
-  Building2, 
-  Stethoscope, 
-  ShieldAlert, 
-  TrendingUp, 
-  Activity, 
+import {
+  ShieldCheck,
+  Users,
+  Building2,
+  Stethoscope,
+  ShieldAlert,
+  TrendingUp,
+  Activity,
   ArrowRight,
   Plus
 } from 'lucide-react';
@@ -126,7 +126,7 @@ const SuperAdminDashboard = () => {
           value={metrics.totalDoctors || 0}
           icon={Stethoscope}
           color="accent"
-          subtitle="Registered doctors roster"
+          subtitle="Registered doctors"
         />
         <StatCard
           title="Active State Policies"

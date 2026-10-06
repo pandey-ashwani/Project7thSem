@@ -42,10 +42,10 @@ const DoctorLogin = () => {
             <Stethoscope size={30} />
           </div>
           <h2 style={{ fontSize: '1.6rem', fontWeight: 800, color: 'var(--slate-900)' }}>
-            Doctor Clinical Sign In
+            Doctor Sign In
           </h2>
           <p style={{ color: 'var(--slate-500)', fontSize: '0.875rem', marginTop: '0.25rem' }}>
-            Access OPD queue, patient health records & Rx builder
+            Access OPD queue, patient health records
           </p>
         </div>
 

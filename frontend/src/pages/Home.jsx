@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import authApi from '../api/authApi';
-import { 
-  Building2, 
-  Stethoscope, 
-  ShieldCheck, 
-  UserCheck, 
-  Activity, 
-  ArrowRight, 
-  TrendingUp, 
-  CheckCircle2, 
+import {
+  Building2,
+  Stethoscope,
+  ShieldCheck,
+  UserCheck,
+  Activity,
+  ArrowRight,
+  TrendingUp,
+  CheckCircle2,
   HeartHandshake,
   Sparkles
 } from 'lucide-react';
@@ -74,7 +74,7 @@ const Home = () => {
             maxWidth: '100%',
             textAlign: 'center'
           }}>
-            <Sparkles size={15} style={{ flexShrink: 0 }} /> 
+            <Sparkles size={15} style={{ flexShrink: 0 }} />
             <span>National Health Mission &bull; Integrated State Healthcare</span>
           </div>
 
@@ -85,7 +85,7 @@ const Home = () => {
             letterSpacing: '-0.03em',
             marginBottom: '1.25rem'
           }}>
-            Unified Healthcare Operations & <span style={{ color: '#38bdf8' }}>State-Wide Symptom Surveillance</span>
+            Digital Unified Healthcare Operations & <span style={{ color: '#38bdf8' }}>State-Wide Symptom Surveillance</span>
           </h1>
 
           <p style={{
@@ -260,7 +260,7 @@ const Home = () => {
                 Hospital Admin
               </h3>
               <p style={{ color: 'var(--slate-600)', fontSize: '0.88rem', lineHeight: 1.5, marginBottom: '1.5rem' }}>
-                Verify 12-digit Aadhaar, onboard patients, manage medical practitioner rosters, and assign doctors to OPD cases.
+                Verify 12-digit Aadhaar, onboard patients, manage medical practitioner schedule, and assign doctors to OPD cases.
               </p>
             </div>
             <div style={{ display: 'flex', gap: '0.5rem' }}>
@@ -470,7 +470,7 @@ const Home = () => {
             </div>
 
             <div style={{ marginTop: '1.5rem', padding: '0.85rem', background: 'rgba(255, 255, 255, 0.05)', borderRadius: '8px', fontSize: '0.78rem', color: 'var(--slate-400)' }}>
-              &bull; AI Surveillance Model: Cross-referencing 10,000+ daily OPD triage entries against regional demographic baselines.
+              &bull; Surveillance Model: Cross-referencing 10,000+ daily OPD triage entries against regional demographic baselines.
             </div>
           </div>
         </div>

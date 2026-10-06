@@ -84,7 +84,7 @@ const DoctorList = () => {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '2rem', flexWrap: 'wrap', gap: '1rem' }}>
         <div>
           <h1 style={{ fontSize: '1.85rem', fontWeight: 800, color: 'var(--slate-900)' }}>
-            Hospital Medical Staff & Specialist Roster
+            Hospital Medical Staff & Registered Doctors
           </h1>
           <p style={{ color: 'var(--slate-500)', fontSize: '0.95rem' }}>
             Registered doctors, qualifications, clinical specializations, and credentials.

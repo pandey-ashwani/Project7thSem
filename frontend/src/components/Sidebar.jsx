@@ -30,7 +30,7 @@ const Sidebar = ({ isOpen, onClose }) => {
     { to: '/admin/check-patient', icon: Search, label: 'Verify Aadhaar' },
     { to: '/admin/new-patient', icon: UserPlus, label: 'Register Patient' },
     { to: '/admin/patients', icon: Users, label: 'Hospital Patients' },
-    { to: '/admin/doctors', icon: Stethoscope, label: 'Doctors Roster' },
+    { to: '/admin/doctors', icon: Stethoscope, label: 'Registered Doctors' },
     { to: '/admin/profile', icon: Building, label: 'Hospital Profile' },
   ];
 
@@ -91,7 +91,7 @@ const Sidebar = ({ isOpen, onClose }) => {
               {portalTitle}
             </div>
           </div>
-          <button 
+          <button
             onClick={onClose}
             style={{ color: 'var(--slate-400)', padding: '0.25rem', display: 'flex' }}
             aria-label="Close Sidebar"
